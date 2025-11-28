@@ -12,27 +12,10 @@ MongoDB & Mongoose-based models
 Global error-handling middleware
 Simple and extensible folder structure
 
-
-Project Structure
----------------------
-root
-│── index.js                
-│── .env                    
-│── src
-│   ├── config
-│   │     └── db.js          // Database connection
-│   ├── models
-│   │     ├── Product.js     // Product schema
-│   │     └── Category.js    // Category schema
-│   ├── controllers
-│   │     └── productController.js
-│   ├── routes
-│   │     └── productRoutes.js
-│   └── middleware
-│         └── errorHandler.js
-
-
-
 Run the project 
 -----------------------
 npm start
+
+endpoints 
+----------------------
+http://localhost:3000/products - To fetch the full product list by extracting the category details
